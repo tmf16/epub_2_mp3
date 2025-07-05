@@ -1,0 +1,11 @@
+# Files to ignore
+
+# Mac OS X
+.DS_Store
+
+# Project specific
+files/mp3/*
+files/text/*
+files/tmp/*
+.env
+GEMINI.md
