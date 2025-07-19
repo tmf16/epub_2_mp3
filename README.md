@@ -21,18 +21,19 @@
 
 1.  依存関係をインストールします。
 
-    ```bash
-    bundle install
-    ```
+```bash
+bundle install
+```
 
 2. 環境変数の設定
 
 `.env.sample` を `.env` にコピーし、APIキーを設定します。
 
-    ```bash
-    cp .env.sample .env
-    ```
-    .env ファイル内の OPENAI_API_KEY に自身の OpenAI API キーを入力してください。
+```bash
+cp .env.sample .env
+```
+
+.env ファイル内の OPENAI_API_KEY に自身の OpenAI API キーを入力してください。
 
 ## 使用方法
 
