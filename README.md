@@ -25,12 +25,14 @@
     bundle install
     ```
 
-2.  OpenAIのAPIキーを環境変数 `OPENAI_API_KEY` に設定します。
+2. 環境変数の設定
+
+`.env.sample` を `.env` にコピーし、APIキーを設定します。
 
     ```bash
-    export OPENAI_API_KEY='YOUR_OPENAI_API_KEY'
+    cp .env.sample .env
     ```
-    または、`.env` ファイルを作成し、その中に `OPENAI_API_KEY=YOUR_OPENAI_API_KEY` と記述します。
+    .env ファイル内の OPENAI_API_KEY に自身の OpenAI API キーを入力してください。
 
 ## 使用方法
 
